@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Encuesta</title>	
+    </head>
+<body>
+
+    <header class="header">
+		<h1 class="logo"><a href="index.html">COVID 19</a></h1>
+      <ul class="main-nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="paises.html">Paises</a></li>
+          <li><a href="encuesta.html">Encuestas</a></li>
+          <li><a href="barras.html">Resultados</a></li>
+      </ul>
+    </header> 
+    
+
+    <h1>Encuesta</h1>
+    <div class="wrap">
+
+
+      <div class="cardform">
+        <form action="">
+          <label for="fname">1. Nombre</label>
+          <input type="text" id="fname" name="firstname" placeholder="Digite su nombre">
+          <label for="fname">2. Apellido</label>
+          <input type="text" id="fname" name="firstname" placeholder="Digite su apellido">
+      
+
+        </form>
+      </div>
+      
+        <form action="">
+          <label class="statement">3. Registre su temperatura corporal.</label>
+          <ul class='likert'>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Menos de 37 ºC</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Entre 37 y 38 ºC </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Entre 37 y 38 ºC </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="disagree">
+              <label>Entre 38 y 39 ºC </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Mas de 39ºC </label>
+            </li>
+          </ul>
+        </form>
+
+        <form action="">
+          <label class="statement">4. ¿Vive con personas de alto riesgo?.</label>
+          <ul class='likert'>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Si</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>No</label>
+            </li>
+          </ul>
+          </form>
+
+          <form action="">
+
+          <label class="statement">5. ¿Que sintomas presenta?</label>
+          <ul class='likert'>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Tos</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Dolor de cabeza </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Dolor de garganta </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="disagree">
+              <label>Problemas al respirar </label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Ninguno</label>
+            </li>
+          </ul>
+        </form >
+
+        <form action="">
+
+          <label class="statement">6. ¿Ha tenido contacto con viajeros del exterior o nacionales?</label>
+          <ul class='likert'>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>Si</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="strong_agree">
+              <label>No</label>
+            </li>
+          </ul>
+          <div class="buttons">
+            <button class="clear">Limpiar</button>
+            <button class="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    
+      <div class="Container">
+        <form action="barras.html">
+          <button>Resultados</button>
+      </form>
+
+</body>
+</html>
